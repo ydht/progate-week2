@@ -1,6 +1,7 @@
 /* For Tablets */
 @media (max-width: 1000px) {
   .top-content {
+    display: inline-block;
     width: 40%;
     margin-right: 10px;
     font-size: 13px;
@@ -8,6 +9,7 @@
   }
   
   .bottom-content {
+    display: inline-block;
     width: 40%;
     margin-right: 10px;
     margin-left: 30px;
