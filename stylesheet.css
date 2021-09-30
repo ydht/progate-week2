@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman";
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header p {
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 30;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.header {
+  background-color: #ffffff;
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+
+.menu a {
+  padding: 10px 0px;
+  color: black;
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+
+.top-wrapper {
+  padding: 80px 0 50px 0;
+  background-color: #f1f1f1;
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.btn-wrapper a {
+  margin: 10px 0;
+  font-family: "Arial", sans-serif;
+  padding: 10px 15px;
+  font-size: 12;
+  background-color: #408afa;
+  opacity: 1;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+  text-align: center;
+}
+
+main {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.content-heading p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.content-title p {
+  font-size: 18px;
+  text-shadow: 1px 1px #1033fd;
+}
+
+.top-content {
+  background-color: #408afa;
+  color: white;
+  padding: 30px 25px 15px 15px;
+  margin: 15px 30px;
+  width: 300px;
+  font-size: 15px;
+  line-height: 2;  
+  display: inline-block;
+}
+
+.bottom-content {
+  background-color: #408afa;
+  color: white;
+  padding: 30px 25px 15px 15px;
+  margin-top: 15px;
+  margin-left: 180px;
+  width: 300px;
+  font-size: 15px;
+  line-height: 2;
+  display: inline-block;
+}
+
+
+.mid-wrapper a {
+ text-align: center; 
+ display: block;
+ color: white;
+ text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+}
+
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-top: 0.5px solid black;
+  margin-top: 60px;
+}
+
+
+.footer-left {
+  float: left;
+  margin-left: 30px;
+  margin-top: -20px;
+}
+
+.footer-right {
+  float: right;
+  margin-top: -15px;
+}
+
+.footer-left p {
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 20px;
+  color: black;
+}
+
+.course-wrapper{
+  display: inline-block;
+  float: left;
+  margin-right: 100px;
+}
+
+.course-list p{
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+.course-title p {
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: black;
+  text-decoration: underline;
+}
+
+.socmed-wrapper { 
+  display: inline-block;
+  float: left;
+  margin-right: 150px;
+}
+
+.socmed-title p {
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: black;
+  text-decoration: underline;
+}
+
+.socmed-list p {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
