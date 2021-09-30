@@ -14,11 +14,14 @@ a {
   text-decoration: none;
 }
 
-header p {
+.header p {
   font-family: "Lucida Handwriting", cursive;
   font-size: 50px;
   margin-bottom: 20px;
   margin-top: 25px;
+}
+
+.header {
   background-color: #ffffff;
   color: black;
   text-align: center;
@@ -63,7 +66,7 @@ header p {
   margin: 10px 0;
   font-family: "Arial", sans-serif;
   padding: 10px 15px;
-  font-size: 12px;
+  font-size: 12;
   background-color: #408afa;
   opacity: 1;
 }
@@ -103,12 +106,16 @@ main {
   display: inline-block;
 }
 
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .bottom-content {
   background-color: #408afa;
   color: white;
   padding: 30px 25px 15px 15px;
-  margin-top: 15px;
-  margin-left: 180px;
+  margin: 15px auto;
   width: 300px;
   font-size: 15px;
   line-height: 2;
@@ -194,4 +201,3 @@ footer {
   font-size: 13px;
   line-height: 1.5;
 }
-
