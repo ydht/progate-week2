@@ -14,14 +14,14 @@ a {
   text-decoration: none;
 }
 
-.header p {
+header p {
   font-family: "Lucida Handwriting", cursive;
   font-size: 50px;
   margin-bottom: 20px;
   margin-top: 25px;
 }
 
-.header {
+header {
   background-color: #ffffff;
   background-size: cover;
   color: black;
