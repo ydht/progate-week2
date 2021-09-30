@@ -99,11 +99,10 @@ main {
   background-color: #408afa;
   color: white;
   padding: 30px 25px 15px 15px;
-  margin: 15px 30px;
+  margin: 15px auto;
   width: 300px;
   font-size: 15px;
-  line-height: 2;  
-  display: inline-block;
+  line-height: 2;
 }
 
 .content-wrapper {
