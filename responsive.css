@@ -1,5 +1,5 @@
 /* For Tablets */
-@media (max-width: 2000px) {
+@media (max-width: 1000px) {
   .top-content {
     display: inline-block;
     width: 40%;
@@ -19,7 +19,7 @@
 }
 
 /* For Smartphones */
-@media (max-width: 670px) {
+@media (max-width: 900px) {
   .top-content {
     display: block;
     width: 80%;
