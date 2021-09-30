@@ -108,7 +108,7 @@ main {
 
 .content-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .bottom-content {
