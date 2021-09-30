@@ -1,9 +1,23 @@
 /* For Tablets */
 @media (max-width: 1000px) {
-  main {
-    display: flex;
-    justify-content: space-evenly
+  .top-content {
+    display: inline-block;
+    width: 40%;
     margin: 15px;
+    font-size: 13px;
+    padding-top: 10px;
+  }
+  
+  .content-wrapper {
+    display: inline-block;
+  }
+  
+  .bottom-content {
+    display: inline-block;
+    width: 40%;
+    margin: 15px;
+    font-size: 13px;
+    padding-top: 10px;
   }
 }
 
