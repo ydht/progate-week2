@@ -1,3 +1,28 @@
+@media (max-width: 1190px) {
+  main {
+    display: flex;
+    justify-content: center;
+  }    
+      
+  .top-content {
+    display: inline-block;
+    width: 40%;
+    margin-right: 10px;
+    font-size: 13px;
+    padding-top: 10px;
+  }
+  
+  .bottom-content {
+    display: inline-block;
+    width: 40%;
+    margin-right: 10px;
+    margin-left: 30px;
+    font-size: 13px;
+    padding-top: 10px;
+  }
+  
+}
+
 /* For Tablets */
 @media (max-width: 1000px) {
   .top-content {
@@ -12,7 +37,7 @@
     display: inline-block;
     width: 40%;
     margin-right: 10px;
-    margin-left: 300px;
+    margin-left: 30px;
     font-size: 13px;
     padding-top: 10px;
   }
