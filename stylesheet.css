@@ -99,25 +99,23 @@ main {
   background-color: #408afa;
   color: white;
   padding: 30px 25px 15px 15px;
-  margin: 15px auto;
+  margin: 15px 30px;
   width: 300px;
   font-size: 15px;
-  line-height: 2;
-}
-
-.content-wrapper {
-  display: flex;
-  justify-content: space-evenly;
+  line-height: 2;  
+  display: inline-block;
 }
 
 .bottom-content {
   background-color: #408afa;
   color: white;
   padding: 30px 25px 15px 15px;
-  margin: 15px auto;
+  margin-top: 15px;
+  margin-left: 180px;
   width: 300px;
   font-size: 15px;
   line-height: 2;
+  display: inline-block;
 }
 
 
@@ -199,3 +197,4 @@ footer {
   font-size: 13px;
   line-height: 1.5;
 }
+
