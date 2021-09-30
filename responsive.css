@@ -1,5 +1,5 @@
 /* For Tablets */
-@media (max-width: 1000) {
+@media (max-width: 1000px) {
   .top-content {
     display: inline-block;
     width: 40%;
@@ -12,7 +12,7 @@
     display: inline-block;
     width: 40%;
     margin-right: 10px;
-    margin-left: 15px;
+    margin-left: 30px;
     font-size: 13px;
     padding-top: 10px;
   }
