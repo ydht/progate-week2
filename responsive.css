@@ -1,50 +1,38 @@
 /* For Tablets */
-@media all and (max-width: 1000px) {
-  .top-content {
+@media all and (max-width: 1100px) {
+  .body {
     display: inline-block;
-    width: 40%;
-    margin-right: 10px;
-    font-size: 13px;
-    padding-top: 10px;
   }
-  
+
+  .top-content {
+    margin-right: 25px;
+  }
+
   .bottom-content {
-    display: inline-block;
-    width: 40%;
-    margin-right: 10px;
-    margin-left: 30px;
-    font-size: 13px;
-    padding-top: 10px;
+    margin-right: 25px;
   }
 }
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-  .top-content {
+  .main-body {
     display: block;
-    width: 80%;
-    font-size: 13px;
-    margin-left: 15px;
+    position: relative;
+    left: 10%;
   }
-  
+
+  .top-content {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+
+  .bottom-content {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+
   .content-title p {
     font-size: 15px;
   }
-  
-  .bottom-content {
-    display: block;
-    width: 80%;
-    font-size: 12px;
-    margin-left: 15px;
-  }
-  
-  .course-wrapper {
-    margin: 30px;
-    display: inline-block;
-  }
-  
-  .socmed-wrapper {
-    margin: 30px;
-    display: inline-block;
-  }
+
 }
